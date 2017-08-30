@@ -39,11 +39,11 @@
 
     var markers = [];
     var props = [{
-        title : 'Modern Residence in New York',
+        title : 'Dr. Honorato García',
         image : '1-1-thmb.png',
-        type : 'For Sale',
-        price : '$1,550,000',
-        address : '39 Remsen St, Brooklyn, NY 11201, USA',
+        type : 'Cardiólogo',
+        price : 'UN DATO',
+        address : 'Av. Mariano Escobedo 2000',
         bedrooms : '3',
         bathrooms : '2',
         area : '3430 Sq Ft',
@@ -53,11 +53,11 @@
         },
         markerIcon : "marker-green.png"
     }, {
-        title : 'Hauntingly Beautiful Estate',
+        title : 'Dr. Honorato García',
         image : '2-1-thmb.png',
-        type : 'For Rent',
-        price : '$1,750,000',
-        address : '169 Warren St, Brooklyn, NY 11201, USA',
+        type : 'UrólogO',
+        price : 'UN DATO',
+        address : 'Av. Mariano Escobedo 2000',
         bedrooms : '2',
         bathrooms : '2',
         area : '4430 Sq Ft',
@@ -67,11 +67,11 @@
         },
         markerIcon : "marker-green.png"
     }, {
-        title : 'Sophisticated Residence',
+        title : 'Dr. Honorato García',
         image : '3-1-thmb.png',
-        type : 'For Sale',
-        price : '$1,340,000',
-        address : '38-62 Water St, Brooklyn, NY 11201, USA',
+        type : 'Nutriología',
+        price : 'UN DATO',
+        address : 'Av. Mariano Escobedo 2000',
         bedrooms : '2',
         bathrooms : '3',
         area : '2640 Sq Ft',
@@ -81,11 +81,11 @@
         },
         markerIcon : "marker-green.png"
     }, {
-        title : 'House With a Lovely Glass-Roofed Pergola',
+        title : 'Dra. Cecilia Hernández',
         image : '4-1-thmb.png',
-        type : 'For Sale',
-        price : '$1,930,000',
-        address : 'Wunsch Bldg, Brooklyn, NY 11201, USA',
+        type : 'Nefrología',
+        price : 'UN DATO',
+        address : 'Av. Mariano Escobedo 2000',
         bedrooms : '3',
         bathrooms : '2',
         area : '2800 Sq Ft',
@@ -95,11 +95,11 @@
         },
         markerIcon : "marker-green.png"
     }, {
-        title : 'Luxury Mansion',
+        title : 'Dra. Cecilia Hernández',
         image : '5-1-thmb.png',
-        type : 'For Rent',
-        price : '$2,350,000',
-        address : '95 Butler St, Brooklyn, NY 11231, USA',
+        type : 'Endocrinología',
+        price : 'UN DATO',
+        address : 'Av. Mariano Escobedo 2000',
         bedrooms : '2',
         bathrooms : '2',
         area : '2750 Sq Ft',
@@ -109,11 +109,11 @@
         },
         markerIcon : "marker-green.png"
     }, {
-        title : 'Modern Residence in New York',
+        title : 'Dra. Cecilia Hernández',
         image : '1-1-thmb.png',
         type : 'For Sale',
-        price : '$1,550,000',
-        address : '39 Remsen St, Brooklyn, NY 11201, USA',
+        price : 'UN DATO',
+        address : 'Av. Mariano Escobedo 2000',
         bedrooms : '3',
         bathrooms : '2',
         area : '3430 Sq Ft',
@@ -123,11 +123,11 @@
         },
         markerIcon : "marker-green.png"
     }, {
-        title : 'Hauntingly Beautiful Estate',
+        title : 'Dra. Cecilia Hernández',
         image : '2-1-thmb.png',
-        type : 'For Rent',
-        price : '$1,750,000',
-        address : '169 Warren St, Brooklyn, NY 11201, USA',
+        type : 'Endocrinología',
+        price : 'UN DATO',
+        address : 'Av. Mariano Escobedo 2000',
         bedrooms : '2',
         bathrooms : '2',
         area : '4430 Sq Ft',
@@ -137,11 +137,11 @@
         },
         markerIcon : "marker-green.png"
     }, {
-        title : 'Sophisticated Residence',
+        title : 'Dra. Valeria',
         image : '3-1-thmb.png',
-        type : 'For Sale',
-        price : '$1,340,000',
-        address : '38-62 Water St, Brooklyn, NY 11201, USA',
+        type : 'Nutriología',
+        price : 'UN DATO',
+        address : 'Av. Mariano Escobedo 2000',
         bedrooms : '2',
         bathrooms : '3',
         area : '2640 Sq Ft',
@@ -151,11 +151,11 @@
         },
         markerIcon : "marker-green.png"
     }, {
-        title : 'House With a Lovely Glass-Roofed Pergola',
+        title : 'Dra. Sofía López',
         image : '4-1-thmb.png',
-        type : 'For Sale',
-        price : '$1,930,000',
-        address : 'Wunsch Bldg, Brooklyn, NY 11201, USA',
+        type : 'Nutriología',
+        price : 'UN DATO',
+        address : 'Av. Mariano Escobedo 2000',
         bedrooms : '3',
         bathrooms : '2',
         area : '2800 Sq Ft',
@@ -165,11 +165,11 @@
         },
         markerIcon : "marker-green.png"
     }, {
-        title : 'Luxury Mansion',
+        title : 'Dra. Maria Fernanda',
         image : '5-1-thmb.png',
-        type : 'For Rent',
-        price : '$2,350,000',
-        address : '95 Butler St, Brooklyn, NY 11231, USA',
+        type : 'Nutriología',
+        price : 'UN DATO',
+        address : 'Av. Mariano Escobedo 2000',
         bedrooms : '2',
         bathrooms : '2',
         area : '2750 Sq Ft',
@@ -241,8 +241,8 @@
                                     '</ul>' +
                                     '<div class="clearfix"></div>' +
                                     '<div class="infoButtons">' +
-                                        '<a class="btn btn-sm btn-round btn-gray btn-o closeInfo">Close</a>' +
-                                        '<a href="single.html" class="btn btn-sm btn-round btn-green viewInfo">View</a>' +
+                                        '<a class="btn btn-sm btn-round btn-gray btn-o closeInfo">Consultar</a>' +
+                                        '<a href="single.html" class="btn btn-sm btn-round btn-green viewInfo">Más info</a>' +
                                     '</div>' +
                                  '</div>';
 
